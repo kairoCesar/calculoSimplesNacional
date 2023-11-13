@@ -2,7 +2,7 @@ package com.github.kairoCesar.calculoSimplesNacional.anexos;
 
 public interface AnexoAbstrato {
 
-    public abstract double simularSimplesNacional(double rbt12, double faturamentoDoMes);
+    double simularSimplesNacional(double rbt12, double faturamentoDoMes);
 
      default int verificarFaixa(double rbt12) {
         int indiceFaixa;
